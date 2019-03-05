@@ -1,6 +1,7 @@
 katz_deli = []
 
 def line(array)
+  array << name
   if array == []
     puts "The line is currently empty."
   else array.each_with_index.map do |name, index|
