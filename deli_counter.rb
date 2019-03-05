@@ -1,9 +1,9 @@
 katz_deli = []
 
 def line
-  if number_of_people == []
+  if katz_deli = []
     puts "The line is currently empty"
-  else number_of_people.each_with_index do |list|
+  else katz_deli.each_with_index do |list|
     puts "The line is currently #{list}."
     end
   end
@@ -22,3 +22,4 @@ def now_serving(array)
 
   puts "There is nobody waiting to be served!"
 end
+  
