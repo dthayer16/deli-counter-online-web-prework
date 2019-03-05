@@ -2,14 +2,13 @@ katz_deli = []
 
 def line (number_of_people)
   if number_of_people == []
-    puts "The line is currently empty"
-  else
-    katz_deli << number_of_people
-    katz_deli.each do |num|
-    puts "The line is currently #{num}."
+    puts "The line is currently empty"    
+  else number_of_people.each do |list|
+    puts "The line is currently #{list}."
     end
   end
 end
+
 
 def take_a_number(array, name)
   array << name
