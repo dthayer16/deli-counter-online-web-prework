@@ -3,7 +3,8 @@ katz_deli = []
 def line(array)
   if array == []
     puts "The line is currently empty."
-  else array.each do [x   puts "The line is currently #{x}."
+  else array.each do | |
+    puts "The line is currently #{x}."
     end
   end
 end
@@ -17,7 +18,9 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  puts "Currently serving #{array[0]}"
-
-  puts "There is nobody waiting to be served!"
+  if array ==[]
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{}."
+  end
 end
