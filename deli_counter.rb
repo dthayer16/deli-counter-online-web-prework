@@ -11,7 +11,7 @@ end
 
 
 def take_a_number(array, name)
-  array << name
+  array.shift(name)
   array.each_with_index.map do |n, i|
   puts "Welcome, #{name}. You are number #{i+1} in line."
   end
