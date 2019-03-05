@@ -1,6 +1,7 @@
 katz_deli = []
 
 def line(array)
+  array2 = []
   if katz_deli = []
     puts "The line is currently empty"
   else katz_deli.each_with_index do |list|
@@ -22,3 +23,4 @@ def now_serving(array)
 
   puts "There is nobody waiting to be served!"
 end
+  
