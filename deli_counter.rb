@@ -4,7 +4,7 @@ def line(array)
   array2 = []
   if array == array2
     puts "The line is currently empty"
-  else katz_deli.each_with_index do |list|
+  else array.each_with_index do |list|
     puts "The line is currently #{list}."
     end
   end
