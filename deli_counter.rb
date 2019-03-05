@@ -22,4 +22,4 @@ def now_serving(array)
   else
     puts "Currently serving #{array.first}."
   end
-end
+end }
