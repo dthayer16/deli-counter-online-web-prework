@@ -23,4 +23,3 @@ def now_serving(array)
 
   puts "There is nobody waiting to be served!"
 end
-  
