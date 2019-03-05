@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line
+def line(array)
   if katz_deli = []
     puts "The line is currently empty"
   else katz_deli.each_with_index do |list|
