@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line (number_of_people)
+def line
   if number_of_people == []
     puts "The line is currently empty"
   else number_of_people.each_with_index do |list|
